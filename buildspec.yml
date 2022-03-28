@@ -9,10 +9,10 @@ phases:
     #commands:
     #- echo "Deploying to the Lambda"
     #- aws lambda update-function-code --function-name mylembda-fuction --zip-file fileb://mylembda-fuction.zip
-#artifacts:
-  #type: zip
-  #paths:
-    #- '*'
+artifacts:
+  type: zip
+  paths:
+    - '*'
     
     
    
